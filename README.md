@@ -32,7 +32,17 @@ Neste dataset, não foi necessário pré-processamentos, pois todas as colunas e
 
 10 - Modelo em Produção: Por fim, o modelo avaliado é publicado (Deploy). Neste caso não foi feito um deploy do modelo.
 
-# 4. Machine Learning Model
+# 5. Insights
+**Curva Precision-Recall**
+Ao visualizar o trade-off entre precisão e recall, podemos verificar um bom equilibrio entre eles utilizando o modelo XGBoostClassifier.
+![output](https://github.com/pammagalhaes/fraud_detection/assets/113152370/749e1ecc-ed60-40a2-a353-84581d16ee42)
+
+**Distribuição do Valor das Transações por Classe***
+No gráfico abaixo, podemos verificar que transações fraudulentas ocorrem em sua maioria das vezes em valores menores que 5000.
+![output2](https://github.com/pammagalhaes/fraud_detection/assets/113152370/475cf60b-d3e4-424f-8d62-93feb02667ef)
+
+
+# 6. Machine Learning Model
 
 Foram desenvolvidos e treinados dois modelos de Aprendizado de Máquina para identificar o algoritmo mais eficaz em descrever e resolver o problema proposto:
 
