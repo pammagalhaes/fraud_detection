@@ -45,3 +45,5 @@ Foram desenvolvidos e treinados dois modelos de Aprendizado de Máquina para ide
 Cada modelo foi treinado e avaliado usando métricas como **Precision**, **Recall** e **AUC-RP**. 
 
 O modelo final escolhido foi o **XGBoostClassifier**, devido a um bom desempenho na análise das métricas e por ser um modelo que geralmente tem um desempenho melhor com dados desbalanceados.
+Como resultado foi alcançado uma **AUC-RP** de 85%, AUC-RP é a métrica mais utilizada em problemas de classificação binários desbalanceados.
+Quanto mais alta essa métrica, melhor o resultado do modelo, ou seja, maior precisão e recall combinados.
