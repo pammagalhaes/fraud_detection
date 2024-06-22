@@ -46,7 +46,7 @@ No gráfico abaixo, podemos verificar que transações fraudulentas ocorrem em s
 
 # 6. Machine Learning Model
 
-Foram desenvolvidos e treinados dois modelos de Aprendizado de Máquina para identificar o algoritmo mais eficaz em descrever e resolver o problema proposto:
+Foram desenvolvidos e treinados três modelos de Aprendizado de Máquina para identificar o algoritmo mais eficaz em descrever e resolver o problema proposto:
 
 **DecisionTreeClassifier**
 
