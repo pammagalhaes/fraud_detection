@@ -8,7 +8,7 @@ Esse conjunto de dados contém apenas variáveis ​​de entrada numéricas que
 As features V1, V2,… V28 foram obtidas com PCA, as únicas features que não foram transformados com PCA foram 'Time' e 'Amount'. A variável 'Time' contém os segundos decorridos entre cada transação e a primeira transação no conjunto de dados. A variável 'Amount' é o valor da transação. A feature 'Class' é a variável resposta e assume valor 1 em caso de fraude e 0 caso contrário.
 
 # 3. Solution Strategy
-Para este projeto, o método CRISP-DM foi utilizado, contando com os 10 passos abaixo: 
+Para este projeto, o método CRISP-DM foi utilizado, contando com alguns dos 10 passos abaixo: 
 
 1 - Problema de Negócio: Identificar o problema de negócio a ser solucionado;
 
