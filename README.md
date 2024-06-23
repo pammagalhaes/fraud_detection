@@ -40,7 +40,7 @@ Ao visualizar o trade-off entre precisão e recall, podemos verificar um bom equ
 
 **Distribuição do Valor das Transações por Classe**
 
-No gráfico abaixo, podemos verificar que transações fraudulentas ocorrem em sua maioria das vezes em valores menores que 5000.
+No gráfico abaixo, podemos verificar que transações fraudulentas podem ocorrer em sua maioria das vezes em valores menores que 5000.
 
 **ATENÇÃO:** A aplicação da Análise de Componentes Principais (PCA) nos dados introduz uma transformação matemática que pode afetar a interpretação literal dos valores resultantes. Sendo assim, a interpretação literal dos valores dos componentes principais como "reais" pode ser enganosa, pois eles representam uma combinação linear das variáveis originais.
 
