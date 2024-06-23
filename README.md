@@ -1,8 +1,6 @@
 # 1.Business Problem
-O conjunto de dados contém transações efetuadas com cartões de crédito em setembro de 2013 por titulares de cartões europeus.
-Este conjunto de dados apresenta transações ocorridas em dois dias, onde temos 492 fraudes em 284.807 transações. O conjunto de dados é altamente desequilibrado, a classe positiva (fraudes) representa 0,172% de todas as transações.
-
-Dada a proporção de desequilíbrio de classe, foi utilizado para medir a precisão a Área sob a curva de recuperação de precisão (AUPRC).
+O dataset utilizado neste projeto contém 31 variáveis e registra transações de cartões de crédito realizadas em setembro de 2013 por titulares europeus. As transações, ocorridas em um período de dois dias, totalizam 284.807, das quais 492 foram fraudulentas, representando apenas 0,172% do total. 
+O objetivo do projeto era construir um modelo de classificação para prever se uma transação é fraudulenta ou não. Devido ao desequilíbrio das classes, utilizou-se a Área sob a Curva de Recuperação de Precisão (AUPRC) para medir a precisão do modelo, garantindo a detecção eficaz das fraudes.
 
 # 2.Context Analysis
 Esse conjunto de dados contém apenas variáveis ​​de entrada numéricas que são o resultado de uma transformação PCA. Infelizmente, devido a questões de confidencialidade, não foi possível obter os recursos originais e mais informações básicas sobre os dados. 
