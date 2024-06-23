@@ -35,6 +35,7 @@ Neste dataset, não foi necessário pré-processamentos, pois todas as colunas e
 **Curva Precision-Recall**
 
 Ao visualizar o trade-off entre precisão e recall, podemos verificar um bom equilibrio entre eles utilizando o modelo XGBoostClassifier.
+
 ![output](https://github.com/pammagalhaes/fraud_detection/assets/113152370/749e1ecc-ed60-40a2-a353-84581d16ee42)
 
 **Distribuição do Valor das Transações por Classe**
@@ -42,6 +43,7 @@ Ao visualizar o trade-off entre precisão e recall, podemos verificar um bom equ
 No gráfico abaixo, podemos verificar que transações fraudulentas ocorrem em sua maioria das vezes em valores menores que 5000.
 
 **ATENÇÃO:** A aplicação da Análise de Componentes Principais (PCA) nos dados introduz uma transformação matemática que pode afetar a interpretação literal dos valores resultantes. Sendo assim, a interpretação literal dos valores dos componentes principais como "reais" pode ser enganosa, pois eles representam uma combinação linear das variáveis originais.
+
 ![output2](https://github.com/pammagalhaes/fraud_detection/assets/113152370/475cf60b-d3e4-424f-8d62-93feb02667ef)
 
 
